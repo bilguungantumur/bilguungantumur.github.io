@@ -124,49 +124,43 @@ function productOfAllElements (myArray){
 }
 
 
-/***************************************************************************************************/
-/***************************************************************************************************/
-/***************************************************************************************************/
 
-/*********************    Test section using console  *********************  */
+/**    Test section using console  ^*  */
 
-console.log ("******************** 1. Max value of two values ******************** ");
+console.log ("^ 1. Max value of two values ^ ");
 console.log ("Expected output of maxOfTwo (10,20) is 20 " + myFunctionTest (20, maxOfTwo(10,20)));
 
-console.log ("\n\n******************** 2. Max value of three values ******************** ");
+console.log ("\n\n^ 2. Max value of three values ^ ");
 console.log ("Expected output of maxOfThree (10,20,30) is 30 " + myFunctionTest (30, maxOfThree(10,20,30)));
 
-console.log ("\n\n******************** 3. Confirm vowel letter ******************** ");
+console.log ("\n\n^ 3. Confirm vowel letter ^ ");
 console.log ("Expected output of if input is vowel ( a ) is true " + myFunctionTest (true, isVowel('a') ));
 console.log ("Expected output of if input is vowel ( b ) is false " + myFunctionTest (true, isVowel('b') ));
 
-console.log ("\n\n******************** 4.1 Sum value of array ******************** ");
+console.log ("\n\n^ 4.1 Sum value of array ^ ");
 console.log ("Expected output of sum ([10,20,30]) is 60 " + myFunctionTest (60, sum([10,20,30])));
-console.log ("******************** 4.2 Multiply value of array ******************** ");
+console.log ("^ 4.2 Multiply value of array ^ ");
 console.log ("Expected output of sum ([1,2,3,4]) is 24 " + myFunctionTest (24, multiply([1,2,3,4])));
 
-console.log ("\n\n******************** 5. Reverse the value of string ******************** ");
+console.log ("\n\n^ 5. Reverse the value of string ^ ");
 console.log ("Expected output of reverse ('jag testar') is 'ratset gaj' " + myFunctionTest ("ratset gaj", reverse("jag testar")));
 
-console.log ("\n\n******************** 6. Longest word of the array of words ******************** ");
+console.log ("\n\n^ 6. Longest word of the array of words ^ ");
 console.log ("Expected output of longest word (['this','is','JavaScript','yes']) is 10 " + myFunctionTest (10, findLongestWord(["this","is","JavaScript","yes"])));
 
-console.log ("\n\n******************** 7. Array of words longer than i ******************** ");
+console.log ("\n\n^ 7. Array of words longer than i ^ ");
 console.log ("Expected output of words (['this','is','JavaScript','yes'], 3) is this,JavaScript " + myFunctionTestForArray (["this","JavaScript"], filterLongWords(["this","is","JavaScript","yes"], 3)));
 
-console.log ("\n\n******************** 8.1. Multiply each element by 10;  ******************** ");
+console.log ("\n\n^ 8.1. Multiply each element by 10;  ^ ");
 console.log ("Expected output of array ([1,3,5,3,3]) is [10,30,50,30,30] " + myFunctionTestForArray ([10,30,50,30,30], multiplyBy10([1,3,5,3,3])));
-console.log ("******************** 8.2. return array with all elements equal to 3 ******************** ");
+console.log ("^ 8.2. return array with all elements equal to 3 ^ ");
 console.log ("Expected output of array ([1,3,5,3,3]) is [3,3,3] " + myFunctionTestForArray ([3,3,3], arrayEqual3([1,3,5,3,3])));
-console.log ("******************** 8.3. return the product of all elements ******************** ");
+console.log ("^ 8.3. return the product of all elements ^ ");
 console.log ("Expected output of array ([1,3,5,3,3]) is 135 " + myFunctionTest (135, productOfAllElements([1,3,5,3,3])));
 
 
-/***************************************************************************************************/
-/***************************************************************************************************/
-/***************************************************************************************************/
 
-/*********************    Test section using console.assert()  *********************  */
+/**    Test section using console.assert()  ^*  */
 
 //1)
 function testMaxOfTwo() {
