@@ -45,7 +45,7 @@ describe("Functional programming", function (){
 	)
 	it ("3. Reverse", 
 		function(){
-			assert.equal(".drow esrever a si sihT", reverse("Our life is flat circle"));
+			assert.equal("elcric talf si efil ruO", reverse("Our life is flat circle"));
 		}
 	)
 	it ("4. Find longest word than i parameter", 
