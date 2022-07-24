@@ -50,7 +50,7 @@ describe("Functional programming", function (){
 	)
 	it ("4. Find longest word than i parameter", 
 		function (){
-			assert.deepEqual(["this", "JavaScript"], findLogestWord(["here","lies","steven","harvey"], 3));
+			assert.deepEqual(["this", "JavaScript"], findLogestWord(["here","lies","steven","harveys"], 4));
 		}
 	)
 });
